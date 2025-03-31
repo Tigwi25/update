@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Reminder: Complete Your Gift Claim</title>
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0056b3;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        .message {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #28a745;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #28a745;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        .winner-stamp {
+            margin-top: 30px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<main class="container" role="main">
+<img alt="Air Canada Logo" height="80" src="https://i.imgur.com/viM1mBi.png" width="150"/> <!-- Adjusted size -->
+<h1>Reminder: Complete Your Gift Claim</h1>
+<p class="message">
+    Dear {email} ,<br/><br/>
+    Congratulations! You’ve been selected to receive an exclusive gift coupon worth <span class="highlight">99.5 CAD</span> as part of our 103rd Anniversary celebration at Air Canada. 
+</p>
+<p class="message">
+    We noticed that you haven't completed the steps to claim your gift yet. Don’t miss out—this special offer is waiting for you! 
+</p>
+<p class="message">
+    To claim your gift, simply click the button below and follow the easy instructions. It’s quick and easy—your <span class="highlight">99.5 CAD</span> coupon is just a few clicks away!
+</p>
+<div class="input-group">
+<a class="button" href="https://jeegzart.com/aircanadhaa/web/">Claim Your Gift Now</a>
+</div>
+<p class="message">
+    Thank you for being part of our amazing community, and we look forward to helping you celebrate our 103rd year together!
+</p>
+<img alt="Winner Stamp" class="winner-stamp" height="80" src="https://i.imgur.com/ZWOTG1W.jpeg" width="80"/>
+</main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.b64').forEach(function(span) {
+            var decoded = atob(span.getAttribute('data-b64'));
+            span.innerHTML = decoded;
+        });
+    });
+</script>
+</body>
+</html>
